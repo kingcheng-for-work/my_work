@@ -1,0 +1,86 @@
+/*
+ 搜索地址（需要满足用户输入1秒后在查询）
+ https://mainsite-restapi.ele.me
+ /bgs/poi/search_poi_nearby
+ 参数
+ keyword={输入的地址}
+ &offset=0
+ &limit=20
+ 
+ 商家分类列表
+ https://mainsite-restapi.ele.me
+ /shopping/v2/restaurant/category
+ ?latitude=22.54286&longitude=114.059563
+ 
+  筛选信息
+ https://mainsite-restapi.ele.me
+ /shopping/v1/restaurants/activity_attributes
+ ?latitude=22.54286
+ &longitude=114.059563
+ &kw=
+ 
+ 
+ 
+ 热门词搜索
+ https://mainsite-restapi.ele.me
+ /shopping/v1/restaurants/search
+ ?offset=0
+ &limit=20
+ &keyword={热门词}
+ &latitude=
+ &longitude=
+ &search_item_type=2
+ &extra[]=activities
+ 
+ 
+ 关键词搜索
+ https://mainsite-restapi.ele.me
+ /shopping/restaurants
+ ?latitude=22.54286
+ &longitude=114.059563
+ &keyword=
+ &offset=0
+ &limit=20
+ &extras[]=activities
+ &restaurant_category_ids[]={分类id}
+ &order_by={排序方式 取值1~6}
+ support_ids[]={筛选id}
+ 
+
+
+商家信息详情
+https://mainsite-restapi.ele.me
+/shopping/restaurant/{商家id}
+?extras[]=activities
+&extras[]=albums
+&extras[]=license
+&extras[]=identification
+&latitude=22.54286
+&longitude=114.059563
+
+ 商家商品详情
+ https://mainsite-restapi.ele.me
+ /shopping/v2/menu
+ ?restaurant_id={商家id}
+ 
+ 商家评价分类
+ https://mainsite-restapi.ele.me
+ /ugc/v2/restaurants/{商家id}/ratings/tags
+ 
+ 商家评价
+ https://mainsite-restapi.ele.me
+ /ugc/v2/restaurants/{商家id}/ratings
+ ?has_content=true
+ &tag_name={全部，满意，不满意等。。。}
+ &offset=10
+ &limit=10
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * */
+
+{item.supports}

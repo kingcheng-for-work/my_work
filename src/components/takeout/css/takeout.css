@@ -1,0 +1,267 @@
+#home{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 49px;
+	overflow: hidden;
+}
+
+
+/********header  start*******/
+#home .header{
+	width: 100%;
+	background: #0096ff;
+	overflow: hidden;
+}
+
+#home .header .info{
+	width: 95%;
+	margin: 0 auto;
+	position: relative;
+}
+
+#home .info span.address:before{
+	content: '¥' ;
+	margin-right: 3px;
+}
+
+#home .info span.address{
+	display: inline-block;
+	width: 220px;
+	color: white;
+	font-size: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#home .info span.address a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+#home .info span.arrow{
+	display: inline-block;
+	border-top: 10px solid white;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	top: 6px;
+}
+#home .info span.weather{
+	color: white;
+	font-size: 10px;
+	float: right;
+	margin-top: 6px;
+}
+
+#home .header .search{
+	margin: 14px 0;
+}
+
+#home .search input{
+	display: block;
+	width: 95%;
+	height: 36px;
+	margin: 0 auto;
+	border-radius: 18px;
+	outline: none;
+	border: none;
+	text-align: center;
+	font-size: 16px;
+}
+
+#home .header .hotwords{
+	height: 20px;
+	overflow: auto;
+	width: 95%;
+	margin: 0 auto;
+		
+}
+
+#home .header .hotwords ul{
+	height: 20px;
+}
+
+#home .header .hotwords ul li{
+	float: left;
+	margin: 0 10px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #fff;
+}
+#home .header .header-wrapper{
+	padding: 15px 10px;
+}
+/********header  end*******/
+
+/********banner  start*******/
+#home .banner{
+	overflow: hidden;
+	padding: 15px 0;
+	
+}
+#home .banner-wrapper{
+	width: 100%;
+	height: 140px;
+	overflow: hidden;
+}
+
+#home .banner-wrapper .banner-list{
+	width: 100%;
+	height: 140px;
+}
+#home .banner-wrapper .banner-list .banner-item{
+	width: 25%;
+	float: left;
+	padding: 10px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#home .banner-wrapper .banner-list .banner-item img{
+	margin: 0 auto;
+	width: 36px;
+	height: 36px;
+}
+#home .banner-wrapper .banner-list .banner-item span{
+	display: block;
+	text-align: center;
+	line-height: 14px;
+	font-size: 12px;
+	color: #666;
+}
+
+/********banner  end*******/
+
+/********commend  start*******/
+#home .commend{
+	width: 100%;
+}
+
+#home .commend .rmd_title{
+	content: '';
+	width: 100%;
+	border-top: 10px solid #ddd;
+	line-height: 35px;
+	font-weight: bold;	
+	position: relative;
+	padding-left: 10px;
+}
+
+#home .commend .rmd_title:after{
+	content: '';
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+	border-bottom: 1px solid #ddd;
+	transform: scaleY(0.5);
+}
+
+#home .shoplist{
+	width: 100%;
+}
+
+#home .shoplist .shop_container{
+	width: 100%;
+	height: 90px;
+	display: block;
+	position: relative;
+
+}
+
+#home .shoplist .shop_container:after{
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: -1px;
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px solid #ddd;
+	transform: scaleY(0.5);
+}
+
+#home .shoplist .shop_container .container_wrapper{
+	padding: 10px 10px;
+}
+
+#home .shoplist .shop_container img{
+	width: 65px;
+	height: 65px;
+	display: inline-block;
+	float: left;
+}
+
+#home .shoplist .shop_container .shop_info{
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	width: 80%;
+}
+
+#home .shoplist .shop_container .shop_info .brand{
+	background: gold;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#home .shoplist .shop_container .shop_info .shop_name_brand{
+	font-size: 18px;
+	font-weight: bold;
+	width: 185px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+}
+#home .shoplist .shop_container .shop_info .shop_name{
+	margin-left: 5px;
+}
+
+#home .shoplist .shop_container .shop_info .shop_customer{
+	margin: 12px 0;
+	font-size: 12px;
+	color: #666;
+}
+
+#home .shoplist .shop_container .shop_info .shop_customer span:nth-child(2){
+	margin-left: 6px;
+}
+
+#home .shoplist .shop_container .shop_info .shop_customer .rating{
+	color: orange;	
+}
+
+#home .shoplist .shop_container .shop_info .fee{
+	font-size: 12px;
+	color: #666;
+	display: flex;
+	justify-content: space-between;
+}
+
+#home .shoplist .shop_container .shop_info .fee span:nth-child(2){
+	margin: 0 6px;
+}
+
+#home .shoplist .shop_container .shop_info .fee .distance{
+	font-size: 12px;
+	color: #666;
+
+}
+
+#home .shoplist .shop_container .shop_info .fee .lead_time{
+	font-size: 12px;
+	color: #0096ff;
+}
+
+.shop_link{
+	display: block;
+}
+/********commend  end*******/
+

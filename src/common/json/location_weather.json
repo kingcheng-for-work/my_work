@@ -1,0 +1,11 @@
+{
+	"location":{
+	          "address" : "深圳市宝安区西乡街道西部硅谷"
+				},   
+	"weather":{
+	          "temp": "30℃",
+	          "description": "阴",
+	          "pic":"暂无"
+	  
+			}	       
+}

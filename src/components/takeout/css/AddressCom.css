@@ -1,0 +1,73 @@
+
+#address_search{
+	width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: white;
+    z-index: 10;
+}
+
+#address_search .address_header{
+	width: 100%;
+	background: #0096ff;
+	height: 16%;
+}
+
+#address_search .address_header .header_wrapper{
+	padding: 10px 20px;
+
+}
+
+#address_search .address_header .title{
+	width: 96%;
+	text-align: center;
+	position: relative;
+}
+
+#address_search .address_header .title span:nth-child(1){
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#address_search .address_header .title span{
+	color: white;
+	font-size: 20px;	
+	line-height: 40px;
+	
+}
+
+#address_search .address_header input{
+	width: 96%;
+	height: 26px;
+	padding-left: 10px;
+	border-radius: 13px;
+	margin: 10px 0;
+	outline: none;
+	border: none;
+}
+
+.add_list{
+	overflow-y: auto;
+	width: 100%;
+	height: 84%;
+}
+
+.add_list li{
+	padding: 10px 0 12px 15px;
+	border-bottom: 1px solid #EAEAEA;
+}
+
+.add_list li p{
+	font-size: 16px;
+	font-weight: 600;
+	padding-bottom: 2px;
+}
+
+.add_list li span{
+	font-size: 14px;
+	color: #999;
+}
+

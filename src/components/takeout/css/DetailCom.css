@@ -1,0 +1,243 @@
+
+#background{
+	width:100%;
+	z-index: 80;
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#background img{
+	width: 100%;
+	height: 100%;
+}
+
+#opacity{
+	width:100%;
+	z-index: 80;
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.5;
+    background: #6D6D72;
+}
+
+
+#detail{
+	width:100%;
+	z-index: 80;
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+
+}
+
+.detail_title{
+	width:100%;
+	z-index: 100;
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    color: white;
+}
+
+.detail_title .back{
+	width: 90%;
+	height: 35px;
+	line-height: 35px;
+	margin: 0 auto;
+}
+
+.detail_title_info{
+	width: 90%;
+	height: 100px;
+	margin: 0 auto;
+	display: block;
+}
+
+.detail_title_info img{
+	width: 90px;
+	height: 90px;
+	display: inline-block;
+	float: left;
+}
+
+.detail_title_info .info_box{
+	width: 70%;
+	display: inline-block;
+	float: left;
+	clear: right;
+}
+
+.detail_title_info .info_box h4{
+	font-size: 18px;
+	line-height: 30px;
+	
+}
+
+.detail_title_info .info_box .info_box_1{
+	font-size: 12px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.detail_title_info .info_box .info_box_1 .detail_go{
+	font-size: 20px;
+}
+
+.detail_title_info .info_box .info_box_2{
+	font-size: 12px;
+	width: 80%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+}
+
+.detail_title .act_list{
+	width: 90%;
+	margin: 0 auto;
+	
+}
+
+.detail_title .act_list .act_num{
+	float: right;
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+}
+
+.detail_title .act_list .act_num span{
+	border-top: 5px solid green;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+}
+
+.detail_title .act_list li{
+	font-size: 12px;
+	line-height: 18px;
+	
+}
+
+.detail_title .act_list li span:nth-child(2){
+	padding-left: 5px;
+}
+
+/************主内容区样式 start************/
+
+
+#detail .content{
+	width: 100%;
+	z-index: 100;
+	position: absolute;
+	left: 0;
+	top: 155px;
+	bottom: 0;
+	background: white;
+}
+.content .content_title{
+	width: 100%;
+	height: 50px;
+	background: white;
+	
+}
+
+.content .content_header li{
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	background: white;
+}
+
+
+.content .content_box1{
+	display: inline-block;
+	width: 100%;
+	
+}
+
+.content .content_box1 .rmd_list{
+	width: 20%;
+	display: inline-block;
+	overflow: auto;
+	height: 520px;
+	float: left;
+}
+
+.content .content_box1 .rmd_list li{
+	background: #CCCCCC;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid white;
+	font-size: 10px;
+}
+
+.content .content_box1 .rmd_list_item{
+	width: 80%;
+	display: inline-block;
+	float: left;
+	overflow: auto;
+	height: 520px;
+}
+
+.content .content_box1 .rmd_list_item .description{
+	width: 100%;
+	line-height: 30px;
+	background: #f1f1f1;
+	padding-left: 6px;
+}
+
+.content .content_box1 .rmd_list_item li{
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.content .content_box1 .rmd_list_item li img{
+	width: 100px;
+	height: 100px;
+
+}
+.content .content_box1 .rmd_list_item li .good_list_info{
+	display: inline-block;
+	
+}
+
+
+
+
+/************主内容区样式 end************/
+
+.content .detail_tabs{
+	width: 100%;
+	height: 49px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #3d3d3f;
+	z-index: 100;
+}
+#detail .detail_tabs li{
+	height: 49px;
+	float: left;
+}
+#detail .detail_tabs .cart{
+	width: 20%;
+}
+
+#detail .detail_tabs .sum{
+	width: 50%;
+}
+
+#detail .detail_tabs .go_account{
+	width: 30%;
+	background-color: #535356;
+}

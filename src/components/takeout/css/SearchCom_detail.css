@@ -1,0 +1,126 @@
+
+#search_detail{
+	width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: white;
+    z-index: 10;
+}
+
+#search_detail .search_header{
+	width: 100%;
+	height: 5%;
+}
+
+#search_detail .search_header .wrapper{
+	padding: 10px 10px;
+	width: 90%;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#search_detail .search_header span:nth-child(1){
+	position: absolute;
+	left: 15px;
+	top: 8px;
+	font-size: 25px;
+	
+}
+
+#search_detail .search_header input{
+	border: none;
+	outline: none;
+	width: 80%;
+	height: 26px;
+	border-radius: 13px;
+	padding-left: 10px;
+	background: #EAEAEA;
+	
+}
+
+#search_detail .classify{
+	width: 100%;
+	display: flex;
+	height: 10%;
+}
+
+#search_detail .classify li{
+	width: 100%;
+	height: 55px;
+	float: left;
+	flex: 1;
+	color: #666;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #D4D4D4;
+}
+#search_detail .classify li span .arrow{
+	display: inline-block;
+	border-top: 5px solid #666;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+}
+#search_detail ul {
+	width: 100%;
+	height: 85%;
+	overflow-y: auto;
+}
+#search_detail .search_shopdetail{
+	width: 100%;
+	padding: 8px;
+	border-bottom: 1px solid #EAEAEA;
+	
+}
+.search_shopdetail_no{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+}
+
+.search_shopdetail img{
+	width: 65px;
+	height: 65px;
+	display: inline-block;
+}
+.search_shopdetail .info_box .title h4{
+	font-size: 16px;
+	line-height: 25px;
+}
+.search_shopdetail .info_box{
+	display: inline-block;
+		padding-left: 10px;
+}
+
+.search_shopdetail .info_1 span, .search_shopdetail .info_2 span{
+	display: inline-block;
+	font-size: 12px;
+	color: #666;
+	line-height: 18px;
+	padding-right: 10px;
+}
+
+.search_shopdetail .info_1 span:nth-child(1){
+	padding: 5px;
+	border: 1px solid #6641E2;
+	color: #6641E2;
+}
+
+.search_shopdetail .info_1{
+	display: flex;
+	justify-content: space-between;
+}
+
+.search_shopdetail .info_2{
+	display: flex;
+	justify-content: space-between;
+}
+
+.search_shopdetail{
+	width: 100%;
+	
+}
